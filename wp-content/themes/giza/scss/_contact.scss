@@ -1,0 +1,99 @@
+/* #contact
+--------------------------------------------------*/
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+	font-size:13px;
+    background-color: transparent;
+    width: 100%;
+	line-height:1.1;
+	padding:10px 0px;
+	margin:0 0 5px;
+	@include border-radius(0px);
+	@include transition-fade(0.3s);
+	border:none;
+	
+}
+
+.wpcf7 input[type="submit"]
+{
+
+	font-size:12px;
+	letter-spacing:1px;
+	font-weight:700;
+	text-align:center;
+	cursor:pointer;
+	text-transform:uppercase;
+	background-color:transparent;
+	@include transition-fade(0.3s);
+	padding:10px 15px;
+	background:#000;
+	border:none;
+	@include border-radius(0px);
+
+}
+
+.wpcf7-not-valid-tip{
+  display: none !important;
+}
+
+form.invalid input.wpcf7-not-valid{
+  border:1px solid #dd3333;
+}
+
+.section-background-dark,
+.section-background-image,
+.section-background-image-fixed,
+.section-background-image-parallax,
+.section-background-image-video,
+.section-background-dark po-header,
+.section-background-custom-white,
+.section-background-custom-dark
+{
+	.wpcf7-response-output
+	{
+		color:#fff;
+	}
+}
+
+.section-background-white,
+.section-background-light
+{
+	.wpcf7-response-output
+	{
+		color:#333;
+	}
+}
+
+.footer-container
+{
+	.wpcf7 input[type="text"],
+	.wpcf7 input[type="email"],
+	.wpcf7 textarea
+	{
+		font-size:14px;
+		margin:0px;
+		
+	}
+	 .wpcf7 textarea
+	{
+		height:100px;
+		
+	}
+	.wpcf7 input[type="submit"]
+	{
+	
+		font-size:12px;
+		padding:5px 9px;
+		margin:0 !important;
+	
+	}
+	
+	.wpcf7-response-output
+	{
+		color:#fff;
+	}
+
+}

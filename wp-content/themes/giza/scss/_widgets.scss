@@ -1,0 +1,317 @@
+/* #widgets
+--------------------------------------------------*/
+.search-sidebar.side
+{
+ margin:50px 0 30px;
+}
+
+.search-icon-form-sidebar
+{
+	position:absolute;
+	margin-left:3px;
+	margin-top:3px;
+	cursor:pointer;
+	padding:10px;
+	color:#ccc;
+}
+
+.search-icon-form-sidebar.side
+{
+	color:#999;
+}
+
+.search-field-sidebar
+{
+	font-size:15px;
+    background-color: transparent;
+    color: #333;
+    width: 100%;
+	line-height:1.1;
+	padding:9px 8px 9px 36px;
+	margin:0 0 5px;
+	@include border-radius(0px);
+	@include transition-fade(0.3s);
+	
+}
+
+.search-field-sidebar.side
+{
+    color: #fff;
+	border:1px solid #eee;
+	text-align:center;
+	padding:9px 36px 9px 36px;
+	opacity:0.5;
+	
+}
+
+.search-field-sidebar.side:focus
+{
+    color: #fff;
+	border:1px solid #eee;
+	opacity:1;
+	
+}
+
+.widgettitle
+{
+	font-weight:700;
+	margin-top:50px;
+	margin-bottom:20px;
+	letter-spacing:1px;
+	font-size:11px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#000;
+
+}
+
+.widget > .widgettitle
+{
+	margin-top:25px;
+
+}
+
+.widget-area
+{
+	margin-bottom:50px;
+}
+
+.widget-area ul
+{
+	padding:0;
+	margin:0;
+}
+
+.widget-area table
+{
+	border: 1px solid #e1e1e1;
+	padding:5px;
+	@include border-radius(3px);
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+.widget-area td,
+.widget-area th
+{
+	text-align:center;
+}
+
+.widget-area tfoot td#prev
+{
+	text-align:left;
+}
+
+.widget-area tfoot td#next
+{
+	text-align:right;
+}
+
+
+.widget-list ul
+{
+	padding:0;
+	margin:0;
+}
+
+.widget
+{
+	font-size:12px;
+}
+
+.widget ul li ul li
+{
+	border-bottom:none;
+	padding:6px 0;
+	color:#888;
+}
+
+.widget ul li ul li:before
+{
+	content:"\f105";
+	font-family: FontAwesome;
+	color:#444;
+	margin-right:5px;
+}
+
+.widget ul li
+{
+	border-bottom:1px solid #e1e1e1;
+	padding:6px 0;
+	color:#888;
+}
+
+.widget ul li ul
+{
+	padding:6px 0 6px 20px;
+	color:#888;
+}
+
+.widget > ul li
+{
+	border-bottom:1px solid #e1e1e1;
+	padding:6px 0;
+	color:#888;
+}
+
+.widget ul li a
+{
+	color:#000;
+}
+
+.widget_calendar caption {
+	color: #000;
+	font-weight: 700;
+	line-height: 1.7142857142;
+	margin-bottom: 18px;
+	text-align: left;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:11px;
+	text-align:center
+}
+
+.widget-area > li
+{
+	margin-bottom: 40px;
+	clear:both;
+}
+
+.tagcloud a
+{
+	font-size:10px !important;
+	letter-spacing:1px;
+	width:auto;
+	margin:0 1px 1px 0 !important;
+	line-height:2.8;
+	color:#bbb;
+	border:1px solid #ccc;
+	padding:4px 6px;
+	vertical-align:top;
+	text-transform:uppercase;
+	font-weight:700;
+	opacity:1;
+}
+
+.tagcloud a:hover
+{
+	color:#fff;
+}
+
+
+.widget-area select
+{
+	max-width:100%;
+}
+ 
+.instagram-pics li
+{
+	width:33.33333333333333333333333333333333333%;
+	display:inline-block;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	
+}
+
+.instagram-pics li,
+.instagram-pics li a
+{
+	border-bottom:none !important;
+}
+
+.instagram-pics li a img
+{
+	width:100%;
+	padding-right:4%;
+	padding-top:4%;
+	
+}
+.widget-area p.clear
+{
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:10px;
+	font-weight:700;
+	padding-top:15px;
+	text-align:center;
+	clear:both;
+	
+}
+
+.rpwe-block li.rpwe-li a.rpwe-img
+{
+
+	width:60% !important;
+}
+
+.rpwe-block li.rpwe-li a.rpwe-img img
+{
+	border:1px solid #ddd !important;
+	padding:3px !important;
+	@include transition-fade(0.2s);
+}
+
+.rpwe-block li.rpwe-li a.rpwe-img img:hover
+{
+	opacity:0.8;
+	border:1px solid #222 !important;
+}
+
+.rpwe-block ul.rpwe-ul li.rpwe-li h3.rpwe-title
+{
+	padding-top:6px;
+}
+
+.rpwe-block ul.rpwe-ul li.rpwe-li .rpwe-time
+{
+	font-style:italic;
+	color:#bbb;
+}
+
+.rpwe-block ul.rpwe-ul li.rpwe-li
+{
+	margin:0;
+	padding:10px 0;
+}
+
+.widget ul li.loved-item
+{
+	padding:10px 0;
+}
+
+.widget ul li.loved-item table
+{
+	padding:0 !important;
+	margin:0 !important;
+	border:none;
+}
+
+.widget ul li.loved-item table td
+{
+	vertical-align:middle;
+}
+
+.widget ul li.cat-item a
+{
+}
+
+.widget ul li.cat-item
+{
+	color:#bbb;
+}
+
+.widget img
+{
+	max-width:100%;
+	height:auto;
+}
+
+.widget.widget_search
+{
+	padding-top:25px;
+}	
+
+#sb_instagram
+{
+	margin:20px 0 30px;
+}

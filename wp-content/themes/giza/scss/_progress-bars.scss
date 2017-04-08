@@ -1,0 +1,161 @@
+/* #progress-bars
+--------------------------------------------------*/
+
+.progress-bar, .progress
+{
+	height:1px;
+	border:none;
+	box-shadow:none;
+	-webkit-box-shadow: none;
+
+}
+
+.progress
+{
+	background:rgba(0,0,0,0.05);
+
+}
+
+.progress-title
+{
+	font-weight:700; 
+	text-transform:uppercase;
+	margin:6px 0 10px;
+	font-size:11px;
+	letter-spacing:1px !important;
+}
+
+.progress-value
+{
+	font-weight:400;
+	display:none;
+	font-size:11px;
+	
+}
+
+.circular-cont
+{
+	width:150px;
+	height:150px;
+	display:block;
+}
+
+.section-background-image,
+.section-background-image-fixed,
+.section-background-image-parallax,
+.section-background-image-video,
+.section-background-custom-white,
+.section-background-custom-dark
+{
+	.icon-circular
+	{
+		color:#fff;
+	}
+
+}
+
+.section-background-dark
+{
+	.icon-circular
+	{
+		color:#eee;
+	}
+	
+	.po-column .hover-ani .circular-line
+	{
+		border-top:1px solid #eee;
+	
+	}
+	
+	.po-column .hover-ani:hover .circular-line
+	{
+		border-top:1px solid #eee;
+	
+	}
+	
+	.circular-text
+	{
+		color:#eee;
+	
+	}
+
+}
+
+.icon-circular
+{
+	color:#000;
+	width:150px;
+	height: 150px;
+	display: table; 
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+	@include border-radius(100px);
+}
+
+.icon-circular {
+
+	i {
+		display: table-cell; 
+		vertical-align: middle;
+		text-align:center;
+		opacity:0;
+	}
+	
+	.icon-char {
+		display: table-cell; 
+		vertical-align: middle;
+		text-align:center;
+	}
+}
+
+.circular-text
+{
+	font-size:11px;
+	text-transform:uppercase;
+	font-weight:700;
+	margin-top:0;
+	letter-spacing:1px;
+	line-height:1.5;
+
+}
+
+@media(max-width:767px){
+.circular-line
+{
+	width:40%; 
+	margin:9px auto 5px; 
+	border-top:1px solid #e1e1e1;
+	@include transition-fade(0.2s)
+
+}
+}
+
+@media(min-width:768px){
+.circular-line
+{
+	width:40%; 
+	margin:9px auto 5px; 
+	border-top:1px solid #e1e1e1;
+	@include transition-fade(0.2s)
+
+}
+}
+
+.section-background-light .circular-line
+{
+	border-top:1px solid #ddd;
+}
+
+@media(min-width:768px){
+	.po-column .hover-ani:hover .circular-line
+	{
+		width:70%;
+	
+	}
+}
+
+.dial
+{
+	opacity:0;
+}

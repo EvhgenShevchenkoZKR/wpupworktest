@@ -1,0 +1,319 @@
+/* #social
+--------------------------------------------------*/
+
+.social-links li,
+.social-links-center li,
+.footer-links li
+{
+	list-style:none !important;
+}
+
+.social-links li,
+.social-links-center li,
+.footer-links li
+{
+	-webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+}
+
+.social-links:hover li,
+.social-links-center:hover li,
+.footer-links:hover li
+{
+	
+	-webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    filter:grayscale(100%);
+	opacity:0.3;
+}
+
+.social-links:not(:hover) li,
+.footer-links:not(:hover) li,
+.social-links-center:not(:hover) li
+{
+	 -webkit-filter:grayscale(0%);
+    -moz-filter:grayscale(0%);
+    -ms-filter:grayscale(0%);
+    -o-filter:grayscale(0%);
+    filter:grayscale(0%);
+}
+
+
+.social-links li:hover,
+.footer-links li:hover,
+.social-links-center li:hover
+{
+	 -webkit-filter:grayscale(0%);
+    -moz-filter:grayscale(0%);
+    -ms-filter:grayscale(0%);
+    -o-filter:grayscale(0%);
+    filter:grayscale(0%);
+	opacity:1;
+	
+}
+
+.social-links li:not(:hover) li,
+.footer-links li:not(:hover) li,
+.social-links-center li:not(:hover) li
+{
+	-webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    filter:grayscale(100%);
+	opacity:0.01;
+	
+}
+
+
+.footer-links
+{
+}
+.menu-nav-inner .social-links-center
+{
+	margin-top:30px;
+}
+
+@media(max-width:767px){
+
+	.st-menu .social-links
+	{
+		text-align:left;
+	}
+	
+	
+	.st-menu .social-links li
+	{
+		float:left;
+		list-style:none;
+		margin-top:13px;
+	}
+
+}
+
+@media(min-width:768px){
+
+	.st-menu .social-links
+	{
+		text-align:center;
+	}
+	
+	
+	.st-menu .social-links li
+	{
+		display:inline-block;
+		list-style:none;
+		margin-top:13px;
+	}
+
+}
+
+.social-links-center
+{
+	text-align:center;
+}
+
+
+.social-links-center li
+{
+	display:inline-block;
+	list-style:none;
+	margin-top:13px;
+}
+
+@media(max-width:767px){
+	.menu-nav-inner .social-links-center li .index
+	{
+		padding:8px 18px 8px 0px;
+	}
+}
+
+.social-links-center li .index
+{
+	padding:8px 9px 8px 9px;
+	-webkit-backface-visibility: hidden;
+}
+
+.footer-links li .index,
+.social-links li .index
+
+{
+	
+	
+}
+
+.social-links-center li .index
+
+{
+	text-align:center;
+  	font-size: 15px;
+  	line-height: 1.5;
+	border:1px solid transparent;
+	@include transition-fade(0.2s);
+	position: relative;
+	
+}
+
+ul.social-links,
+ul.social-links-center
+{
+	padding:0;
+	
+}
+
+.social-links li
+{
+	color:#333;
+	
+}
+
+.st-menu .social-links li a
+{
+	color:#666;
+}
+
+.section-background-dark,
+.section-background-image,
+.section-background-image-fixed,
+.section-background-image-parallax,
+.section-background-image-video,
+.section-background-dark po-header,
+.section-background-custom-white
+{
+	.social-links-center li a,
+	.social-links li a
+	{
+		color:#fff;
+	}
+	
+	.social-links .index:hover,
+	.social-links-center .index:hover
+	{
+		color:#fff;
+	}
+
+}
+
+.team-social
+{
+	.social-links-center li a,
+	.social-links li a
+	{
+		color:#fff !important;
+	}
+	
+	.social-links .index:hover,
+	.social-links-center .index:hover
+	{
+		color:#fff !important;
+	}
+
+}
+
+.section-background-white,
+.section-background-light
+
+{
+	.social-links-center li a,
+	.social-links li a
+	{
+		color:#333;
+	}
+	
+	.social-links .index:hover,
+	.social-links-center .index:hover
+	{
+		color:#333;
+	}
+
+}
+
+.st-menu .social-links li a:hover
+{
+	color:#fff;
+}
+
+
+ul.footer-links
+{
+padding:0;
+
+}
+
+.social-links .index:hover
+{
+	color:#fff;
+}
+
+
+.entry-content.po-content {
+	ul.social-links 
+	{
+		width: 100%; /* or your desired width */
+		text-align: left; /* this will center the list items */
+	}
+	
+	.social-links li
+	{
+		display: inline-block; /* the key bit */
+		*display: inline; /* IE7 hack */
+		*zoom: 1; /* IE7 hack */
+		padding:0 20px 0 0;
+	}
+}
+
+
+
+.footer-container-bottom
+{
+	
+	@media(max-width:767px){
+	
+		ul.social-links 
+		{
+			width: 100%; /* or your desired width */
+    		text-align: center; /* this will center the list items */
+		}
+		
+		.social-links li
+		{
+			display: inline-block; /* the key bit */
+			*display: inline; /* IE7 hack */
+			*zoom: 1; /* IE7 hack */
+			padding:0 10px 0 10px !important;
+		}
+	}
+	
+	@media(min-width:768px){
+		
+		.social-links li
+		{
+			float:right;
+			list-style:none;
+			margin-top:0px;
+		}
+		
+		.social-links li .index
+		{
+			text-align:right;
+			padding:8px 0px 8px 15px !important;
+			font-size: 15px;
+			line-height: 1.5;
+			color:#000;
+		}
+	}
+	
+	
+	
+	.social-links .index:hover
+	{
+		color:#000;
+	}
+
+}
+

@@ -1,0 +1,167 @@
+/* #team
+--------------------------------------------------*/
+
+.team-role {
+	font-size: 16px;
+	font-weight:600;
+	color: #333;
+	margin-bottom:30px
+}
+
+.team-role span {
+	display:inline-block;
+	margin-left:4px;
+	margin-right:4px;
+	width:9px;
+	height:9px;
+	background:url(images/cat-sep.png) no-repeat;
+}
+
+.team-item {
+	height:350px;
+	display: block;
+	padding:0;
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.team-item {
+		height:401px;
+		display: block;
+		padding:0;
+	}
+}
+
+.team-item,
+.team-item .ss-style-triangles-2
+{
+	
+	background-color:#111;
+	
+}
+.team-item:nth-child(odd),
+.team-item:nth-child(odd) .ss-style-triangles-2
+{
+
+	background-color:#222;
+	
+}
+
+.team-item .social-links,
+.team-item .social-links-center
+{
+	opacity:0.4;
+	@include transition-fade(0.3s);
+}
+
+.team-item:hover .social-links,
+.team-item:hover .social-links-center
+{
+	opacity:1;
+}
+
+.section-background-white,
+.section-background-light
+
+{
+	.team-item .social-links-center li a
+	{
+		color:#fff;
+	}
+
+}
+
+.team-item a {
+	display: block;
+	position: relative;
+}
+
+.team-details {
+
+	padding:17px 30px 25px;
+}
+
+.team-details-inner
+{
+	position:relative; 
+	z-index:99;
+}
+
+.item-description {
+
+	.description-cell {
+		display: table-cell; 
+		vertical-align: middle;
+	}
+}
+
+
+@media(min-width:768px){
+.team-item a:hover .subtitle span { background:url(images/cat-sep-w.png) no-repeat; }
+}
+
+h5.team-title {
+	color: #fff;
+	font-weight:700;
+	font-size:13px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	text-align:center;
+	line-height:1.5;
+	
+}
+
+.team-subtitle {
+	
+	color: #888;
+	font-family: 'Playfair Display', serif;
+	font-style:italic;
+	font-size:14px;
+}
+
+.team-subtitle span {
+	display:inline-block;
+	margin-left:4px;
+	margin-right:4px;
+	width:9px;
+	height:9px;
+	background:url(images/cat-sep.png) no-repeat;
+	opacity:0.8;
+}
+
+.team-social .social-links-center li
+{
+	margin-top:6px;
+}
+
+.team-social i
+{
+	font-size:14px;
+}
+
+
+.team-caption
+{
+	width:100%;
+	text-align:center;
+	color:#fff;
+	
+	padding:0 35px;
+}
+
+@media(max-width:767px){
+.team-caption h1
+{
+	font-size:26px;
+	margin:0;
+	padding:0;
+}
+}
+
+@media(min-width:768px){
+.team-caption h1
+{
+	font-size:50px;
+	margin:0;
+	padding:0;
+}
+}
